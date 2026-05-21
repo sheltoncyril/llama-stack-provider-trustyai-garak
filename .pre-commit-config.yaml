@@ -21,3 +21,8 @@ repos:
         language: system
         pass_filenames: false
         types: [python]
+  - repo: https://github.com/dcondrey/unicode-safety-check
+    rev: v3.0.0
+    hooks:
+      - id: unicode-safety-check
+        name: Check for hidden unicode characters
